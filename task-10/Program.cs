@@ -6,7 +6,9 @@
 // 918 -> 1
 
 
-Console.WriteLine("Введите трёхзначное число: ");
-int n = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите трёхзначное число: ");
+// int n = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine(n % 100 / 10);
+int n = new Random().Next(100, 1000);
+
+Console.WriteLine(n + " -> " + n % 100 / 10);
