@@ -15,16 +15,10 @@ if((num > -100)&(num < 100))
 
 else
 {
-    while(num > 999)
+    while(num > 999||num < -999)
     {
     num = num / 10;    
     }
-
-    while(num < -999)
-    {
-        num = num /10;
-    }
-
-
+  
 Console.WriteLine(num *10 / 10 % 10);
 }
